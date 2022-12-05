@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+.topo{
+    background-color: brown;
+    width: 100%;
+}
+.topo_int{    
+    width: 1140px;
+    height: 305px;
+    margin: auto;
+    background-image: url(../assets/img/cais/banner.jpg);
+
+}
+
+.tittle_topo{
+    background-color: crimson;
+    width: 650px;
+    font-size: 50px;
+    margin-right: 300px;
+    margin-top: 30px;
+    float:right;
+    color: #fff;
+
+
+}
+
+.logo{
+    background-color: chartreuse;
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.galery{
+    height: 1150px;
+    width: 1140px;
+    margin: auto;    
+    background:conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+}
+
+.band_gal{    
+    height: 500px;
+    width: 850px;
+    margin: auto;  
+    border-bottom: solid #fff;  
+}
+
+.band_gal2{        
+    height: 500px;
+    width: 850px;    
+    padding-top: 40px;  
+    margin: auto;  
+}
+
+.tittle1{
+    color: #fff;
+    margin:auto;    
+    width: 280px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;    
+}
+
+.gal_container{ 
+    border-radius: 7px;   
+    height: 450px;
+    width: 850px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background:conic-gradient(at 125% 50%, #b78cf7, #ff7c94, #ffcf0d, #ff7c94, #b78cf7);
+}
+
+.gal_img1, .gal_img2{
+    display: flex;
+    flex-direction: row;  
+        
+}
+.gal_img{
+    width: 250px;
+    height: 160px;   
+    margin: 10px; 
+    border: solid #fff;
+    opacity: 0.75;
+    cursor: pointer;    
+}
+
+.tittle_img{
+    margin-bottom: auto;   
+    margin-left: 50px;    
+    width: 180px;
+    color:midnightblue;
+}
+
+
+/*RODAPE--------------------------------*/
+
+
+
+.pe{
+    border-top: solid #fff;
+    background-color: rgb(28, 4, 50);
+    height: 150px; 
+    align-items: center;
+    display: flex;      
+}
+
+.pe_int1{
+    margin: auto;    
+    width: 120px;    
+    display: flex;
+    justify-content:space-around;
+    margin-right: 0;
+    
+}
+
+.pe_ext1{    
+    margin: auto;
+    width: 920px;
+    height: 90px;
+}
+
+.pe_img1, .pe_img2, .pe_img2{
+    margin: auto;
+    width: 30px;
+    height: 30px;    
+}
+
+
+.pe_ext2{      
+    margin-top: 60px; 
+    margin-right: 50px;        
+}
+
+.pe_int2{     
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+
+small{
+    color:#fff;    
+    margin-left: 5px;
+    margin-top: 55px;    
+}
+
+.small_tittle1{
+    border-right: solid 2px #fff ;
+    width: 170px;    
+}
+.small_tittle2{
+    width: 170px;    
+}
+

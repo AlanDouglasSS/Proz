@@ -1,0 +1,322 @@
+
+body{
+    font-family: 'Lobster_Two', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.cabecalho{
+    background: conic-gradient(from .5turn at bottom center, lightblue, white);
+}
+
+
+
+.container{
+    margin: auto;
+    width: 1170px;
+    height: 125px;               
+}
+
+.bloco_map{   
+    float: right;           
+}
+
+
+
+.tittle_top{    
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 70px;
+    
+}
+
+
+#menu li{            	        
+    list-style: none;
+    float: left;
+    cursor: pointer; 
+    padding-right: 20px;                                         
+}
+
+ul{    
+    height: 50px; 
+    margin-top: 0;                                              
+}
+
+li{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    height: 50px;
+    padding-left: 20px;     
+    background-color: rgb(255, 255, 255);
+    border-left: 5px;
+    border-color: black;
+}       
+
+li:hover{
+    color: white;
+    background: conic-gradient(from 90deg at bottom right, cyan, rebeccapurple);            
+}
+
+
+        
+
+.logomarca{
+    margin-top: 15px;            
+    float: left;    
+    width: 90px;
+    height: 90px;
+}
+
+
+.banner1{        
+    width: 1170px;    
+    margin: auto;    
+}
+.banner-img1{          
+    width: 900px;    
+    margin-top: -4px;
+}
+
+.prop_text{
+    cursor: pointer;
+    font-size: 20px; 
+    text-align: center;
+     
+}
+
+.prop_text{    
+    color:rgb(255, 255, 255);
+    background-color: black;
+    margin: auto;
+    width: 250px;
+    top: 250px;    
+}
+
+.link_prop{
+    text-decoration: none;
+    color: #fff;
+}
+
+.prop_top{
+    float: right;     
+    margin-top: -5px;
+    left: 939px;    
+}
+
+.img_prop{
+    width: 250px;
+    opacity: 0.5;        
+}
+
+.main_top{
+    background:conic-gradient(at top right, slategray, white);
+    width: 1170px;
+    margin: auto;
+}
+
+.hist_1{        
+    width: 1170px;    
+    height: 330px;          
+        
+    margin: auto;
+    border-bottom: solid 3px;
+}
+
+
+.hist_img1{    
+    width: 250px;
+    height: 250px;  
+    margin-top: 50px; 
+    margin-left: 50px;  
+}
+
+.tittle1{    
+    float: right;    
+    width: 210px;
+    height: 18px;
+    margin-right: 350px;
+}
+
+.hist_text1{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-right: -340px;
+    margin-top: 1px;    
+    float: right;
+    width: 600px;
+    
+}
+
+/*------------------------------------------------*/
+.hist_2{        
+    width: 1170px;    
+    height: 430px;           
+        
+    margin: auto;
+    border-bottom: solid 3px;
+}
+
+
+.hist_img2{    
+    width: 250px;
+    height: 250px;  
+    margin-top: 65px;     
+    margin-left: 750px;     
+}
+
+.tittle2{    
+    float: right;    
+    width: 210px;
+    height: 18px;
+    margin-right: 780px;
+    margin-top: -280px;    
+}
+
+.hist_text2{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-right: -340px;
+    margin-top: 1px;    
+    float: right;
+    width: 600px;    
+}
+
+
+
+/*-------------------------------------*/
+
+
+.hist_3{        
+    width: 1170px;    
+    height: 420px;        
+    margin: auto;
+    border-bottom: solid 3px;
+}
+
+
+.hist_img3{    
+    width: 250px;
+    height: 250px;  
+    margin-top: 75px; 
+    margin-left: 120px;  
+}
+
+.tittle3{    
+    float: right;    
+    width: 210px;
+    height: 18px;
+    margin-right: 400px;
+    margin-top: 25px;
+}
+
+.hist_text3{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-right: -220px;
+    margin-top: 10px;    
+    float: right;
+    width: 600px;
+    
+}
+
+
+/*----------------------------------------*/
+
+
+.hist_4{        
+    width: 1170px;    
+    height: 430px;           
+        
+    margin: auto;
+    border-bottom: solid 3px;
+}
+
+
+.hist_img4{    
+    width: 250px;
+    height: 250px;  
+    margin-top: 65px;     
+    margin-left: 750px;     
+}
+
+.tittle4{    
+    float: right;    
+    width: 210px;
+    height: 18px;
+    margin-right: 780px;
+    margin-top: -290px;    
+}
+
+.hist_text4{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-right: -340px;
+    margin-top: 15px;    
+    float: right;
+    width: 600px;    
+}
+
+
+/*RODAPÉ----------------------------------*/
+
+
+.pe{
+    background-color: rgb(28, 4, 50);
+    height: 150px; 
+    align-items: center;
+    display: flex;      
+}
+
+.pe_int1{
+    margin: auto;    
+    width: 120px;    
+    display: flex;
+    justify-content:space-around;
+    margin-right: 0;
+    
+}
+
+.pe_ext1{    
+    margin: auto;
+    width: 920px;
+    height: 90px;
+}
+
+.pe_img1, .pe_img2, .pe_img2{
+    margin: auto;
+    width: 30px;
+    height: 30px;    
+}
+
+
+.pe_ext2{      
+    margin-top: 60px; 
+    margin-right: 50px;        
+}
+
+.pe_int2{     
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+
+small{
+    color:#fff;    
+    margin-left: 5px;
+    margin-top: 55px;    
+}
+
+.small_tittle1{
+    border-right: solid 2px #fff ;
+    width: 170px;    
+}
+.small_tittle2{
+    width: 170px;    
+}
+
